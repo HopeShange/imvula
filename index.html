@@ -14,20 +14,27 @@
 <body>
     <div class="weather-app">
     <header>
-        <form>
-            <input type="search" placeholder="Enter City..." required/>
-            <input type="submit" value="search"/>
+        <form class="search-form">
+            <input type="search" placeholder="Enter City..." required class="search-form-input"/>
+            <input type="submit" value="search" class="search-form-button"/>
         </form>
     </header>
     <main>
+        <div class="weather-app-data">
          <div>
-        <h1>KwaZulu Natal</h1>
-        <p>Tuesday 17:57, scattered clouds
+        <h1 class="weather-city">KwaZulu Natal</h1>
+        <p class="weather-details">Tuesday 17:57, scattered clouds
             <br>
             Humidity: <b>44%</b>, Wind: <b>3.13 km/h</b>
         </p>
          </div>
-       <div>🌥 20°C </div> 
+         
+       <div class="weather-app-container">
+        <div class="weather-emoji">🌥 </div>
+        <div class="weather-number">20</div>
+        <div class="weather-unit">°C </div>
+    </div> 
+    </div>
     </main>
     
     <footer>
