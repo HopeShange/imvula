@@ -14,15 +14,15 @@
 <body>
     <div class="weather-app">
     <header>
-        <form class="search-form">
-            <input type="search" placeholder="Enter City..." required class="search-form-input"/>
+        <form class="search-form" id="search-form">
+            <input type="search" placeholder="Enter City..." required class="search-form-input" id="search-form-input"/>
             <input type="submit" value="search" class="search-form-button"/>
         </form>
     </header>
     <main>
         <div class="weather-app-data">
          <div>
-        <h1 class="weather-city">KwaZulu Natal</h1>
+        <h1 class="weather-city" id="weather-city">KwaZulu Natal</h1>
         <p class="weather-details">Tuesday 17:57, scattered clouds
             <br>
             Humidity: <b>44%</b>, Wind: <b>3.13 km/h</b>
@@ -43,6 +43,7 @@
         <a href="https://app.netlify.com/sites/imvula/deploys">Netlify.</a>
     </footer>
     </div>
+    <script src="src/index.js"></script>
 </body>
 
 </html>
