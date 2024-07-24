@@ -66,9 +66,9 @@ strong {
     display: flex;
 }
 
-.weather-emoji {
-    font-size: 44px;
-    margin-top: 22px;
+.icon {
+    font-size: 88px;
+    margin-top: 20px;
 }
 
 .weather-number {
