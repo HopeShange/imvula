@@ -17,12 +17,13 @@
         <form class="search-form" id="search-form">
             <input type="search" placeholder="Enter City..." required class="search-form-input" id="search-form-input"/>
             <input type="submit" value="search" class="search-form-button"/>
+            <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
         </form>
     </header>
     <main>
         <div class="weather-app-data">
          <div>
-        <h1 class="weather-city" id="weather-city">KwaZulu Natal</h1>
+        <h1 class="weather-city" id="city">KwaZulu Natal</h1>
         <p class="weather-details">Tuesday 17:57, scattered clouds
             <br>
             Humidity: <b>44%</b>, Wind: <b>3.13 km/h</b>
@@ -31,7 +32,7 @@
          
        <div class="weather-app-container">
         <div class="weather-emoji">🌥 </div>
-        <div class="weather-number">20</div>
+        <div class="weather-number" id="temperature">20</div>
         <div class="weather-unit">°C </div>
     </div> 
     </div>
